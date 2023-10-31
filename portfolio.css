@@ -1,0 +1,403 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    color: white;
+    margin: auto;
+    border-radius: 20px;
+     background-color: black; 
+
+
+
+}
+.sec-1{
+    width: 100%;
+    height: 100vh;
+    background: url(./bad\ boy.jpeg);
+    background-size: cover;
+    background-position-y:-50px;
+    background-position-x:300px;
+    
+}
+
+.navbar{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    margin: 20px auto;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.logo h1{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    letter-spacing: 1.8px;
+    cursor: pointer;
+}
+
+.links ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    border: none;
+    border-radius: 10px;
+
+}
+.links li a{
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    text-decoration: none;
+
+}
+
+.links li a:hover{
+    transition: 0.5s;
+    color: #ff8c69;
+    transition: all 0.5s ease 0s;
+}
+
+.btn button{
+      width: 150px;
+      height: 50px;
+      border-radius: 20px;
+      border: none;
+      background-color: crimson;
+    
+}
+.btn button:hover{
+    transition: .4s;
+    color: white;
+    cursor: pointer;
+
+}
+
+.mainimag{
+    width: 100%;
+    height: 70vh;
+    padding: 25px;
+    display: flex;
+}
+.content{
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.mainpic{
+    width: 50%;
+}
+
+
+.para{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+.designation{
+font-size: 50px;
+font-weight: 500;
+}
+
+
+
+.personname{
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.inputfeild{
+    width: 400px;
+    height: 60px;
+    border-radius: 40px;
+    padding: 10px;
+    background-color: white;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inputdiv{
+    color: gray;
+    font-size: 18px;
+    display: flex;
+}
+
+.btn-2 button{
+    background-color: red;
+    width: 110px;
+    height: 35px;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+
+.btn-2 :hover{
+    transition: .4s;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.sec-2{
+    width: 100%;
+     background-color:rgb(29, 24, 24);
+    display: flex;
+    height: 70vh;
+    margin: auto;
+    padding: 30px;
+}
+
+.left{
+    width: 30%;
+    background-image: url(./enemy.jpg);
+    background-size: cover;
+    filter: grayscale(100%);
+    background-position: center;
+    
+}
+.left:hover{
+    transition: .6s;
+    filter: grayscale(0%);
+    cursor: pointer;
+}
+
+.right{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    gap: 20px;
+    
+}
+.heading h1{
+ color: red;
+ font-size: 70px;
+}
+.heading-2 h2{
+        font-size: 40px;
+}
+
+.heading-2 p{
+    text-decoration: none;
+
+}
+.btn-3 button{
+    width: 150px;
+    height: 50px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 25px;
+
+}
+
+.btn-3 button:hover{
+    transition: 0.5s;
+    color: black;
+}
+.sec-3{
+    width: 100%;
+    display: flex;
+    height:90vh;
+    flex-direction: column;
+   padding: 20px;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+
+}
+.services:hover{
+transition: .3s;
+color: blue;
+cursor: pointer;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 50px;
+}
+.box-1{
+    width: 300px;
+    height: 400px;
+    gap: 30px;
+    border: 3px solid rgb(129, 120, 120);
+    display: flex;
+    border-radius: 30px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box-1 button{
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: crimson;
+    color: white;
+    margin: 10px 20px;
+
+}
+.box-1 button:hover{
+    transition: .4s;
+    color: black;
+    cursor: pointer;
+}
+.box-2{
+    width: 300px;
+    height: 400px;
+    gap: 30px;
+    border: 3px solid rgb(129, 120, 120);
+    display: flex;
+    border-radius: 30px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box-2 button{
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: crimson;
+    color: white;
+    margin: 10px 20px;
+}  
+
+.box-2 button:hover{
+    transition: .4s;
+    color: black;
+    cursor: pointer;
+}
+
+.box-3{
+    width: 300px;
+    height: 400px;
+    gap: 30px;
+    border:3px solid rgb(129, 120, 120);
+    display: flex;
+    border-radius: 30px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box-3 button{
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: crimson;
+    color: white;
+    margin: 10px 20px;
+
+}
+
+.box-3 button:hover{
+    transition: .4s;
+    color: black;
+    cursor: pointer;
+}
+.sec-4{
+    width: 100%;
+    background-color: #252525;
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+}
+.tophead{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.tophead h2{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btun{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+
+}
+.btun button{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    background-color: crimson;
+    color: white;
+
+    
+}
+.btun button:hover{
+    transition: .5s;
+    color: black;
+}
+
+.sec-5{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+}
+
+.top-2{
+    text-align: center;
+    margin-top: 50px;
+}
+.top-2 h2{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.paral{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+    font-size: 50px;
+}
+
+
+
